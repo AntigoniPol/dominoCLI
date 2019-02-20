@@ -1,0 +1,13 @@
+# Enter one VM parameter per line
+# For example, to adjust the maximum memory usage to 512 MB, uncomment the following line:
+# -Xmx512m
+# To include another file, uncomment the following line:
+# -include-options [path to other .vmoption file]
+# -classpath/p I:\Programs\domino\config\
+-Ddomino.defaultHost=https://jpmc.domino.tech
+-Dhttp.proxyHost=proxy.jpmchase.net
+-Dhttp.proxyPort=8443
+-Dhttp.nonProxyHosts=
+-Dhttps.proxyHost=proxy.jpmchase.net
+-Dhttps.proxyPort=8443
+-Dhttps.nonProxyHosts=
